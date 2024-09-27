@@ -1,0 +1,29 @@
+*{
+    background-color: darkgrey;
+    
+}
+body{
+    background-color: black;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.card img{
+    border-radius: solid black;
+}
+    .card-body a{
+        background-color: orange;
+    }
+.card-body h5{
+    color: #bc8012;
+}
+.cards:hover{
+    transform: translate(30deg);
+}
+
+
+
